@@ -1,0 +1,40 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:orientation="vertical"
+    android:background ="#5018A509"
+     >
+<!-- #5018A509 % Dark green #EE005F09-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="List of Pest"
+            android:textStyle="bold"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+<View
+   		android:layout_width = "fill_parent"
+   		android:layout_below = "@id/textView1"
+        android:layout_height="2dip"
+        android:background="#FF30AFFF"
+        android:id = "@+id/view1" />
+
+<ListView
+    android:id="@+id/listView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_alignParentLeft="true"
+    android:layout_below="@+id/view1" >
+</ListView>
+        
+    </RelativeLayout>
+
+</LinearLayout>

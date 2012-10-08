@@ -1,0 +1,95 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="in.ultraneo.seriousandroiddeveloper"
+    android:versionCode="4"
+    android:versionName="1.3" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+         />
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+
+     <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera" />
+
+    <application
+        android:icon="@drawable/logo"
+        android:label="Serious Android Developer"
+        android:theme="@style/Theme.Styled" >
+        <activity
+            android:name=".MainActivity"
+            
+            android:label="Serious Android Developer" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+                
+            </intent-filter>
+        </activity>
+        <activity android:name=".SoftwarePassionView" 
+             android:icon="@drawable/logo"
+            android:label="Update"
+            android:theme="@style/Theme.Styled" 
+            ></activity>
+        <activity android:name=".About" 
+             android:label="About" 
+            android:theme="@style/Theme.Styled" ></activity>
+        
+        <activity android:name=".QueryActivity" 
+            
+             android:icon="@drawable/logo"
+            android:label="Send Query"
+            android:theme="@style/Theme.Styled" 
+            >
+            <intent-filter >
+                 <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+            
+        </activity>
+        <activity android:name=".ActivityUpdateItem" 
+             android:icon="@drawable/logo"
+            android:label="Subject"
+            android:theme="@style/Theme.Styled" 
+            > 
+        </activity>
+        
+        <activity 
+            android:name= ".ExampleList"
+            android:label="Sample Example"
+            android:theme="@style/Theme.Styled"
+            ></activity>
+        <activity 
+            android:name=".Openexample"
+           android:theme="@style/Theme.Styled"
+            
+            ></activity>
+         <activity 
+            android:name=".CamerabyIntent"
+            android:label="Example Camera by Intent"
+            android:theme="@style/Theme.Styled"
+            ></activity>
+        
+         <activity 
+            android:name=".CameraAPI"
+            android:label="Example Camera API"
+            android:theme="@style/Theme.Styled"
+            ></activity>
+         <activity 
+            android:name=".Customlist"
+            android:label="Ultra Custom List"
+            android:theme="@style/Theme.Styled"
+            ></activity>
+         
+         <activity 
+            android:name=".Customdialogwithcustomlist"
+            android:label="CustomList n CustomDialogbox"
+            android:theme="@style/Theme.Styled"
+            ></activity>
+        
+        
+        
+        
+    </application>
+
+</manifest>

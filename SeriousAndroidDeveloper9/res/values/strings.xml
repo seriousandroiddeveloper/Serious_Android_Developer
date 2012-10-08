@@ -1,0 +1,14 @@
+<resources>
+
+    <string name="app_name">SeriousAndroidDeveloper9</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+	 <string name="sharesoucecodetous">Are you &quot;Serious Android Developer&quot; ! If yes! Contribute your source and show cast yourself.</string>
+     <string name="longtext">this is a very long text.this is a very long text.this is a very long text.this is a very long text.this is a very long text.</string>
+     <string name="longinfocameraintent">A quick way to enable taking pictures or videos in your application without a lot of extra code is to use an Intent to invoke an existing Android camera application. A camera intent makes a request to capture a picture or video clip through an existing camera app and then returns control back to your application. Capturing images using a camera intent is quick way to enable your application to take pictures with minimal coding.</string>
+     <string name="camerintentpermission">&lt;uses-feature android:name=&quot;android.hardware.camera&quot;/&gt;</string>
+     <string name="SDcardpermission">&lt;uses-permission android:name=&quot;android.permission.WRITE_EXTERNAL_STORAGE&quot;/&gt;</string>
+     <string name="camerAPI">&lt;uses-permission android:name=&quot;android.permission.CAMERA&quot;/&gt;</string>
+     <string name="cameraapiinfo">Some developers may require a camera user interface that is customized to the look of their application or provides special features. Creating a customized camera activity requires more code than using an intent, but it can provide a more compelling experience for your users. Camera hardware is a shared resource that must be carefully managed so your application does not collide with other applications that may also want to use it. </string>
+</resources>

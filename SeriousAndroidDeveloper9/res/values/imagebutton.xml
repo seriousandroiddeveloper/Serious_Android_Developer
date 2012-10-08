@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Imagebutton" parent="@android:style/Widget.ImageWell">
+<item name="android:background">@drawable/imagebutton</item>
+
+</style>
+    <style name="reference" parent="@android:style/Widget.ImageWell">
+<item name="android:background">@drawable/referencebutton</item>
+
+</style>
+    
+</resources>

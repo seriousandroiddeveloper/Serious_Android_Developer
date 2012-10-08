@@ -1,0 +1,7 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.Sherlock.Light" />
+<style name="NewButton.Button" parent="@android:style/Widget.Button">
+<item name="android:background">@drawable/facebooksendbutton</item>
+</style>
+</resources>

@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <item android:id="@+id/item2" android:title="option"
+        android:showAsAction="ifRoom"
+        android:icon="@drawable/more"
+        >
+        <menu>
+            <item android:id="@+id/item3" android:title="Share and Post"/>
+            
+            <item android:id="@+id/item5" android:title="See Sample Example"/><item android:id="@+id/item4" android:title="About" />
+        </menu>
+    </item>
+</menu>

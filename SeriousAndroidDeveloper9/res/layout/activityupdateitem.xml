@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:layout_weight="1.27" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:orientation="vertical"
+            android:background="@drawable/activityupdateitem" 
+            >
+            
+    <ImageView
+        android:id="@+id/icon"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="center"
+        style="@style/Imagebutton"
+        android:src="@drawable/a" />
+
+    <TextView
+        android:id="@+id/toptext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:text="check"
+        android:textSize="1pt"
+        android:visibility="invisible"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/activitysbbitem" >
+        <TextView
+        android:id="@+id/subject"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:text="check"
+        android:textSize="10pt"
+        android:textStyle="bold" />
+        <TextView
+        android:id="@+id/toptext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:text="check"
+        android:textSize="3pt"
+        android:visibility="invisible"
+        android:textStyle="bold" />
+         <TextView
+        android:id="@+id/message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="there is no direct way to save image file in phone&apos;s database, indirectly u can convert them into byte array using MIME then save it on DB but it is good if your image is small, ensure that ur image is small enough "
+         />
+         <TextView
+        android:id="@+id/toptext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:text="check"
+        android:textSize="5pt"
+        android:visibility="invisible"
+        android:textStyle="bold" />
+         <TextView
+        android:id="@+id/reference"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/reference"
+        android:text="Reference: http://www.facebook.com/groups/c2dmdeveloper/413029952095254/"
+         />
+         
+         <TextView
+        android:id="@+id/toptext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:text="check"
+        android:textSize="5pt"
+        android:visibility="invisible"
+        android:textStyle="bold" />
+        
+    </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+<!-- 
+android:layout_height="?android:attr/listPreferredItemHeight"  
+  android:layout_height="0dip"
+  android:textAppearance="?android:attr/textAppearanceMedium"
+   <TextView
+        android:id="@+id/toptext"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:text="check"
+        android:textSize="10pt"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="there is no direct way to save image file in phone&apos;s database, indirectly u can convert them into byte array using MIME then save it on DB but it is good if your image is small, ensure that ur image is small enough "
+         />
+  -->
